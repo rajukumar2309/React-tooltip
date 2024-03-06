@@ -37,6 +37,7 @@ code{
   visibility: visible;  
 }
 
+                /* ---Top--- */
 /* styling for the arrow of the tooltip when the props pass as top */
 .tooltip .tooltiptext-top::after{
   content: " ";
@@ -49,6 +50,7 @@ code{
   border-color: rgba(21, 231, 164, 0.622) transparent transparent transparent;
 }
 
+               /* ---Bottom--- */
 /* styling for the tooltip text when props pass as bottom */
 .tooltip .tooltiptext-bottom{
   visibility: hidden;
@@ -83,6 +85,7 @@ code{
   border-color: transparent transparent rgb(12, 214, 197) transparent;
 }
 
+                    /*---Left--- */
 /* styling for the tooltip text when props pass as left */
 .tooltip .tooltiptext-left{
   visibility: hidden;
@@ -116,6 +119,7 @@ code{
   border-color: transparent transparent transparent rgb(16, 220, 183);
 }
 
+                     /* ---Right--- */
 /* styling for the tooltip text when props pass as right */
 .tooltip .tooltiptext-right{
   visibility: hidden;
