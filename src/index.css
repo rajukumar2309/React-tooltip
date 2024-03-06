@@ -3,22 +3,22 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
 }
 
-code{
+/* code{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+} */
 
 .tooltip{
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted rgb(249, 15, 22);
   margin-left: 45%;
-  margin-top: 20%;
+  margin-top: 25%;
   cursor: pointer;
 }
 
-/* styling for the tooltip text when props pass as top */
+/* styling for tooltip text when props pass as top */
 .tooltip .tooltiptext-top{
-  visibility: hidden;
+  visibility: ;
   background-color: #1acbe6;
   color: #c2f820;
   text-align: center;
@@ -134,7 +134,7 @@ code{
 
 /* show the tooltip text when mouse over the tooltip container */
 .tooltip:hover .tooltiptext-right{
-  visibility: visible;  
+  visibility: hidden;  
 }
 
 /* styling for the arrow of the tooltip when the props pass as right */
